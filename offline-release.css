@@ -1,0 +1,52 @@
+
+/* Self-contained research-page additions. */
+.evolve-intro { grid-template-columns: 1fr; }
+.evolve-intro .panel-copy { max-width: 880px; }
+.concept-state { display:flex; align-items:center; justify-content:center; min-height:70px; border:1px solid rgba(118,185,0,.32); border-radius:8px; color:var(--green-bright); background:rgba(118,185,0,.045); }
+.concept-state svg { display:block; width:100%; max-width:118px; height:76px; }
+.concept-evolve-pair > span { min-width:0; }
+.concept-evolve-pair .concept-state { margin-bottom:4px; }
+.evolve-query-node > div > .concept-state { width:78px; flex:0 0 78px; }
+.evolve-control-node > .concept-state { min-height:58px; margin-top:9px; }
+.evolve-control-node { padding-right:12px!important; }
+.paper-art > .concept-state { flex:1; min-width:90px; min-height:110px; }
+.overview-dialog { width:min(94vw,1180px); padding:14px; border:1px solid var(--line-strong); border-radius:18px; background:#0b100c; color:var(--text); }
+.overview-dialog::backdrop { background:rgba(0,0,0,.86); }
+.overview-dialog header { display:flex; align-items:center; justify-content:space-between; gap:16px; margin:0 0 10px; }
+.overview-dialog h2 { margin:0; font-size:1rem; }
+.overview-dialog header button { background:transparent; color:var(--text); border:1px solid var(--line-strong); border-radius:8px; width:36px; height:36px; font-size:1.3rem; }
+.overview-dialog video { display:block; width:100%; height:auto; max-height:80vh; border-radius:8px; background:#000; }
+.hero-actions > button { font:inherit; cursor:pointer; }
+@media(max-width:700px){ .evolve-task-metric-row dt { font-size:.73rem; line-height:1.35; } .overview-dialog{padding:9px;} }
+
+/* Keep the authored film in its own frame, away from the page headline. */
+.hero-frame { background:radial-gradient(ellipse at 78% 12%,#26331b 0%,#111710 30%,#080a08 75%); }
+.hero-shade { display:none; }
+.hero-content { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); column-gap:clamp(24px,3vw,50px); align-content:center; align-items:start; text-align:left; padding:50px clamp(24px,5vw,74px) 75px; }
+.hero-content > .eyebrow,.hero-content > h1,.hero-content > .hero-subtitle,.hero-content > .hero-conclusion { grid-column:1; width:100%; margin-left:0; margin-right:0; }
+.hero-content > h1 { font-size:clamp(3.2rem,5.5vw,5.6rem); }
+.hero-content > .hero-subtitle { max-width:520px; font-size:clamp(1.4rem,2vw,1.9rem); }
+.hero-content > .hero-conclusion { max-width:520px; margin-bottom:20px; }
+.hero-film-preview { grid-column:2; grid-row:1/5; align-self:center; min-width:0; margin:0; overflow:hidden; border:1px solid #41542f; border-radius:14px; background:#080b06; box-shadow:0 18px 50px #0005; }
+.hero-film-video { display:block; width:100%; aspect-ratio:16/9; object-fit:contain; background:#080b06; }
+.hero-film-preview figcaption { display:flex; justify-content:space-between; gap:12px; padding:11px 14px; color:#d8e3d0; font-size:.72rem; font-weight:650; }
+.hero-film-preview figcaption span { color:#a3b798; font-weight:500; }
+.hero-content > .hero-results,.hero-content > .hero-actions { grid-column:1/-1; }
+.hero-content > .hero-results { margin-top:26px; }
+.hero-content > .hero-actions { justify-content:center; }
+@media(max-width:1000px){
+ .hero-content { display:flex; align-items:center; text-align:center; padding:38px 24px 68px; }
+ .hero-content > .eyebrow { justify-content:center; }
+ .hero-content > h1 { font-size:clamp(3rem,8vw,5rem); }
+ .hero-content > .hero-subtitle,.hero-content > .hero-conclusion { max-width:620px; }
+ .hero-film-preview { order:1; width:min(100%,680px); margin-top:25px; }
+ .hero-content > .hero-results { margin-top:12px; }
+}
+@media(max-width:560px){
+ .hero-content { min-height:0; padding:32px 14px 65px; }
+ .hero-content > h1 { font-size:clamp(2.15rem,10.8vw,3.2rem); }
+ .hero-content > .hero-subtitle { font-size:clamp(1rem,4.3vw,1.15rem); }
+ .hero-content > .hero-conclusion { font-size:.72rem; margin-bottom:8px; }
+ .hero-film-preview { margin-top:22px; }
+ .hero-film-preview figcaption { font-size:.67rem; padding:10px 12px; }
+}

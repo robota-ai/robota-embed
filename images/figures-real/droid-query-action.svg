@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="226" viewBox="0 0 320 226" role="img" aria-labelledby="title desc">
+<title id="title">Normalized action — DROID</title>
+<desc id="desc">Recorded query at 16 seconds. Ten signed model-input coordinates. Values: [0.663471818, -0.212279558, 0.500852108, -0.536498308, 0.275321007, -1.31295896, -0.255831122, 0.644647956, 0.481235147, -0.99118948]. Axis extends to 1.5; values are not clipped.</desc>
+<metadata>{&quot;source&quot;: &quot;data/retrieval/droid-temporal-near-miss/query_action_model_input.csv&quot;, &quot;sha256&quot;: &quot;b6593b9b0defab4f2fc9c7a4421234659b1f3b6bb12e6d5c71422bb619514f6b&quot;, &quot;values&quot;: [0.663471818, -0.212279558, 0.500852108, -0.536498308, 0.275321007, -1.31295896, -0.255831122, 0.644647956, 0.481235147, -0.99118948], &quot;axis_extent&quot;: 1.5}</metadata>
+<rect width="320" height="226" rx="16" fill="#121412"/><g font-family="Arial,Helvetica,sans-serif">
+<text x="16" y="27" font-size="18" font-weight="600" fill="#f3f5f1">Normalized action</text>
+<text x="16" y="49" font-size="12" fill="#a5aaa3">DROID query · t = 16 s</text>
+<path d="M39 76.0 H306" stroke="#343a34"/><text x="33" y="80.0" text-anchor="end" font-size="10" fill="#a5aaa3">+1.5</text>
+<path d="M39 131.0 H306" stroke="#343a34"/><text x="33" y="135.0" text-anchor="end" font-size="10" fill="#a5aaa3">+0</text>
+<path d="M39 186.0 H306" stroke="#343a34"/><text x="33" y="190.0" text-anchor="end" font-size="10" fill="#a5aaa3">-1.5</text>
+<rect x="44.85" y="106.67270000666667" width="15" height="24.32729999333333" rx="2" fill="#76b900" data-value="0.663471818"><title>action_00: 0.663471818</title></rect><text x="52.35" y="204" text-anchor="middle" font-size="11" fill="#f3f5f1">00</text>
+<rect x="71.55" y="131" width="15" height="7.783583793333334" rx="2" fill="#48d7ce" data-value="-0.212279558"><title>action_01: -0.212279558</title></rect><text x="79.05" y="204" text-anchor="middle" font-size="11" fill="#f3f5f1">01</text>
+<rect x="98.25" y="112.63542270666667" width="15" height="18.364577293333333" rx="2" fill="#76b900" data-value="0.500852108"><title>action_02: 0.500852108</title></rect><text x="105.75" y="204" text-anchor="middle" font-size="11" fill="#f3f5f1">02</text>
+<rect x="124.94999999999999" y="131" width="15" height="19.671604626666667" rx="2" fill="#48d7ce" data-value="-0.536498308"><title>action_03: -0.536498308</title></rect><text x="132.45" y="204" text-anchor="middle" font-size="11" fill="#f3f5f1">03</text>
+<rect x="151.65" y="120.90489640999999" width="15" height="10.09510359" rx="2" fill="#76b900" data-value="0.275321007"><title>action_04: 0.275321007</title></rect><text x="159.15" y="204" text-anchor="middle" font-size="11" fill="#f3f5f1">04</text>
+<rect x="178.35" y="131" width="15" height="48.14182853333333" rx="2" fill="#48d7ce" data-value="-1.31295896"><title>action_05: -1.31295896</title></rect><text x="185.85" y="204" text-anchor="middle" font-size="11" fill="#f3f5f1">05</text>
+<rect x="205.04999999999998" y="131" width="15" height="9.380474473333335" rx="2" fill="#48d7ce" data-value="-0.255831122"><title>action_06: -0.255831122</title></rect><text x="212.54999999999998" y="204" text-anchor="middle" font-size="11" fill="#f3f5f1">06</text>
+<rect x="231.75" y="107.36290828" width="15" height="23.63709172" rx="2" fill="#76b900" data-value="0.644647956"><title>action_07: 0.644647956</title></rect><text x="239.25" y="204" text-anchor="middle" font-size="11" fill="#f3f5f1">07</text>
+<rect x="258.45" y="113.35471127666666" width="15" height="17.645288723333334" rx="2" fill="#76b900" data-value="0.481235147"><title>action_08: 0.481235147</title></rect><text x="265.95" y="204" text-anchor="middle" font-size="11" fill="#f3f5f1">08</text>
+<rect x="285.15" y="131" width="15" height="36.34361426666667" rx="2" fill="#48d7ce" data-value="-0.99118948"><title>action_09: -0.99118948</title></rect><text x="292.65" y="204" text-anchor="middle" font-size="11" fill="#f3f5f1">09</text>
+<text x="172" y="220" text-anchor="middle" font-size="10" fill="#a5aaa3">Action coordinate</text></g></svg>
