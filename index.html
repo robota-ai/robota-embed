@@ -260,7 +260,7 @@ main .results-section, main .paper-section { padding-block:clamp(72px, 7vw, 112p
 </section>
 <section class="overview-efficiency-evidence">
 <header><strong>Embed2Evolve efficiency vs. Direct</strong></header>
-<div><span><small>Shared successes</small><b>Policy decisions ↓ 64.1%</b></span><span><small>Shared successes</small><b>Execution time ↓ 41.4%</b></span><span><small>All test rollouts</small><b>Policy tokens ↓ 43.7%</b></span><span><small>All test rollouts</small><b>Reference cost ↓ 41.8%</b></span></div>
+<div><span><small>Shared successes</small><b>Policy decisions ↓ 64.1%</b></span><span><small>Shared successes</small><b>Observed client time ↓ 41.4%</b></span><span><small>All test rollouts</small><b>Policy tokens ↓ 43.7%</b></span><span><small>All test rollouts</small><b>Reference cost ↓ 41.8%</b></span></div>
 </section>
 </div>
 
@@ -562,9 +562,9 @@ main .results-section, main .paper-section { padding-block:clamp(72px, 7vw, 112p
 </section>
 <section aria-label="Efficiency on matched initializations where both Direct and Embed2Evolve succeed" class="evolve-paired-efficiency">
 <header><span>Shared-success efficiency</span><small>19 matched initializations where both methods succeed</small></header>
-<div><span><strong>−64.1%</strong><small>policy decisions</small></span><span><strong>−41.4%</strong><small>task execution time</small></span><span><strong>1.90×</strong><small>mean task-wise speedup</small></span></div>
+<div><span><strong>−64.1%</strong><small>policy decisions</small></span><span><strong>−41.4%</strong><small>observed client time</small></span><span><strong>1.90×</strong><small>mean task-wise time ratio</small></span></div>
 </section>
-<p class="evolve-summary-scope">Success and token results use all final test rollouts, including failures. Decision and time results use only shared-success pairs and are reported separately.</p>
+<p class="evolve-summary-scope">Success and token results include all final test rollouts. Decision and time comparisons use shared successes; observed client time includes API waits and caller/scheduling differences.</p>
 </div>
 
 <div class="evolve-viewer" data-reveal="">
